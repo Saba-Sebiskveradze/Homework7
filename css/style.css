@@ -1,5 +1,39 @@
-.container{
+/* create 1920px container */
+.container {
     max-width: 1920px;
     width: 100%;
     margin: auto;
+}
+/* header css with navigation */
+header {
+    display: inline-flex;
+    padding: 46px 320px 45px 320px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #262626;
+    max-width: inherit;
+    width: inherit;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+ul {
+    display: flex;
+    height: 28px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 68px;
+}
+
+.navigation {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+}
+.main_navigation{
+    color: #DCB47A;
 }
